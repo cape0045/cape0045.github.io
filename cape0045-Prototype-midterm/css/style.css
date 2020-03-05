@@ -1,0 +1,458 @@
+@charset "utf-8";
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+
+
+/********* My Moblie CSS Home Page*********/
+
+body{
+    background-color:#FFC98C;
+    font-family: 'Didact Gothic', sans-serif;
+    color:#755229;
+
+}
+h1{
+    font-family: 'Satisfy', cursive;
+    font-size: 3rem;
+    color:#755229;
+    padding: 15px;
+    padding-right: 3px;
+    text-align: center;
+}
+h2{
+    font-family: 'Poiret One', cursive ;
+    font-size: 30px;
+    padding: 5px 5px;
+    text-align: center
+
+}
+
+nav a {
+	display: block;
+	border: 1px solid #FFC98C;
+	background-color:#C19057;
+	margin:8px;
+	padding: 15px;
+	color:white;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Poiret One', cursive;
+    font-size: 1.5rem;
+}
+.site-footer{
+    background-color:#755229;
+    padding: 15px;
+    color:white;
+    text-align: center;
+    bottom: 100%;
+}
+.our-treats{
+    text-align: center;
+    font-size:2rem;
+    font-family: 'Poiret One', cursive ;
+}
+a{
+    text-decoration: none;
+    color:white;
+    margin: 5px;
+}
+
+nav a:hover,
+nav a:focus,
+nav a.active{
+    background-color:#755229;
+    font-weight: bold;
+}
+
+*,
+*:after,
+*:before{
+    box-sizing: inherit;
+}
+img{
+    display:block;
+    width:100%;
+    padding: 5px;
+}
+h3{
+    font-size: 2rem;
+    color:#755229;
+    font-family: 'Didact Gothic', sans-serif;
+    padding-top: 10px;
+}
+.image-cont {
+    position: relative;
+    overflow: hidden;
+}
+.image-cont h3{
+    position: absolute;
+    bottom: 0;
+    left: 100%;
+    margin:0;
+    height: 335px;
+    width: 500px;
+    background:whitesmoke;
+    padding: 5px;
+    transition: all 500ms;
+    color:#755229;
+    text-align: center;
+}
+
+.image-cont:hover h3{
+    left:0;
+    transition: all 2s ease-in ease-out;
+}
+.image-cont h3:before{
+    position: absolute;
+    top:50%;
+    left:-50px;
+}
+
+h5{
+    font-family:'Karla 700i', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 2px;
+    
+}
+h4{
+    font-family: 'Karla', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 10px;
+
+    
+}
+.social-media img{
+    width: 135px;
+    height: 200px;
+    border-radius: 5px;
+    float:left;
+}
+p{
+    font-family:'Karla', sans-serif;
+    font-size: 15px;
+    position: relative;
+    padding: 5px 5px;
+}
+.social-media{
+    display:block;
+    background-color:white;
+    margin: 10px;
+    padding: 20px;
+    width: calc(100%-90px);
+    border: 10px solid white;
+    box-sizing:border-box;
+    border-radius:10px;
+  
+}
+.banner{
+    display:block;
+    background-color: white;
+    width:100%;
+    padding:35px;
+    border:10px solid white;
+    box-sizing:border-box;
+    text-align:center;
+    position: absolute;
+    float:center;
+    margin: 100px auto;
+}
+.banner:hover{
+    transform: scale(1.2,1.2);
+    font-weight:bold;
+    cursor: pointer;
+}
+
+/****** My About Page CSS ******/
+table{
+    Border: 3px solid #755229;
+    border-collapse: collapse;
+    margin: 0 auto;
+    padding-bottom: 200px
+}
+th,
+td{
+    border: 3px solid #755229;
+    padding: 10px 20px;
+    font-size: 2rem;
+    background-color: #C19057;
+    color: white;
+    text-align: center;
+
+}
+
+/******* ABout us Styles ******/
+.info img{
+    width:100%;
+    padding:5px;
+}
+.info p{
+    font-size: 15px;
+    font-family:'Karla', sans-serif;
+    padding: 10px 10px;
+    margin: 0 auto;
+    color:white;
+}
+
+
+/****** Contact Page *******/
+/***form**/
+label{
+    font-size: 1.5rem;
+    color: white;
+    line-height: 2rem;
+}
+form{
+  border: 3px solid #755229;
+  width: 435px;
+  height: 400px;
+  display:block;
+  border-radius: auto;
+  background-color:#755229;
+  margin: 1rem;
+  padding: 1rem;
+}
+textarea,
+input{
+    display: block;
+    width: 412px;
+    border: 4px solid #FFC98C;;
+    background: white;
+    padding: .5rem;
+}
+  button{
+    background-color:#C19057;
+    color:#755229;;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    cursor:pointer;
+    position: absolute
+}
+select{
+    font-size: 1.15rem;
+    background: transparent;
+}
+textarea{
+    resize:none;
+    height: 5rem;
+}
+
+iframe{
+    width: 500px;
+    height: 300px;
+    padding: 10px;
+}
+
+
+
+
+
+@media screen and (min-width:768px){
+h1{
+    font-size: 10rem;
+}
+h2{
+    font-size:5rem;
+    padding: 5px 5px;
+}
+.image-cont img{
+    width: 550px;
+    height: 350px;
+    padding: 50px 100px;
+    padding-left: 105px;
+}
+nav a{
+    float:left;
+    padding: 0;
+    border: 1px #C19057;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border-right: 0;
+    width: 100%;
+}
+nav ul{
+    display:flex;
+	-webkit-flex-flow:row;
+	flex-flow:row;
+}
+nav ul li{ 
+    font-size:4rem;
+    display:flex;
+    -webkit-flex: 3;
+    flex: 3;
+    width: 75%;
+}
+
+.image-cont:hover h3{
+    left:50%;
+    transition: all 2s ease-in ease-out;
+}
+.image-cont h3{
+    position: absolute;
+    left: 100%;
+    top: 45px;
+    margin:0;
+    height: 350px;
+    width: 600px;
+    background:whitesmoke;
+    padding: 5px;
+    transition: all 500ms;
+    color:#755229;
+    text-align: center;
+}
+h3{
+    margin:0;
+    height: 500px;
+    width: 600px;
+    background:whitesmoke;
+    padding: 5px;
+    color:#755229;
+    text-align: center;
+    float: left;
+}
+.site-footer h2{
+    font-size: 2rem;
+    background-color:#755229;
+    padding: 10px;
+    color:white;
+    text-align: center;
+    bottom: 100%;
+
+}
+.our-treats img{
+    width: 500px;
+    height: 750px;
+}
+
+.our-treats{
+    display:flex;
+	-webkit-flex-flow:row;
+    flex-flow:row;
+    -webkit-flex: 3;
+    flex: 3;
+    width: 400px;
+    padding-left: 50px;
+}
+.social-media{
+    display:block;
+    background-color:white;
+    height:300px;
+    width:800px;
+    border:10px solid white;
+    box-sizing:border-box;
+    border-radius:10px;
+    font-size: 2.5rem;
+    margin: 0 auto;
+
+}
+.social-media img{
+    width: 200px;
+    height: 250px;
+    padding: 10px 20px;
+
+}
+h6{
+    font-size: 1.3rem;
+    padding-left:50px;
+}
+
+/***** About page css *****/
+.info img{
+    width: 350px;
+    height: 500px;
+    padding-top: 100px
+}
+.banner{
+    float: left;
+    width:350px;
+    padding: 50px 50px;
+    text-align: center;
+}
+p{
+    font-size: 50px;
+    padding-left: 200px;
+}
+table{
+    width: 800px;
+    height: 700px;
+}
+.main-container{
+    display:flex;
+	-webkit-flex-flow:row;
+    flex-flow:row;
+    -webkit-flex: 3;
+    flex: 3;
+    width: 400px;
+    padding-left: 25px;
+}
+/***** contact page css *****/
+iframe{
+    width: 900px;
+    height: 500px;
+    
+}
+form{
+    float: right;
+    padding-top: 100px;
+}
+h2{
+    font-size: 2rem;
+    text-align: left;
+}
+h4{
+    text-align: right;
+}
+
+}
